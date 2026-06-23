@@ -76,7 +76,7 @@
 		},
 		{
 			"x": 342.63911418976556,
-			"y": -37.546746612902126,
+			"y": -20.209720613121277,
 			"z": 0.576800196303934,
 			"meta": {},
 			"id": "camera:page:page",
@@ -88,7 +88,7 @@
 			"selectedShapeIds": [
 				"shape:989nS7ZctXRFhTCLUcGSB"
 			],
-			"hoveredShapeId": "shape:989nS7ZctXRFhTCLUcGSB",
+			"hoveredShapeId": null,
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -202,13 +202,13 @@
 			"isFocused": true,
 			"devicePixelRatio": 1.5,
 			"isCoarsePointer": true,
-			"isHoveringCanvas": true,
+			"isHoveringCanvas": null,
 			"openMenus": [],
 			"isChangingStyle": false,
 			"isReadonly": false,
 			"meta": {},
 			"duplicateProps": null,
-			"cameraState": "moving",
+			"cameraState": "idle",
 			"id": "instance:instance",
 			"currentPageId": "page:page",
 			"typeName": "instance"

@@ -149,7 +149,7 @@ System.out.println(stack.search(10)); // 3
 
         Deque<String> listDq = new ArrayDeque<>(List.of("A", "B", "C"));
         
-
+            
          //addAll(index, Collection)
          list.addAll(1, List.of("X", "Y","Anthropic"));
           
