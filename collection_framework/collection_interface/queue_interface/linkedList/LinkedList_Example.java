@@ -55,6 +55,9 @@ public class LinkedList_Example {
          //? isEmpty();
           System.out.println("Is empty : "+queue.isEmpty());
 
+             //? Contains
+          System.out.println("Is queue contains 15: "+queue.contains(15));
+          
         //!Traversing 
          while (!queue.isEmpty()) {
             System.out.println(queue.poll());

@@ -15,10 +15,14 @@ public class PriorityQueueExample {
         System.out.println("PriorityQueue top/element(): " + queue.element());
         System.out.println("PriorityQueue elements: " + queue);
         System.out.println("Removing elements in priority order (Ascending order we get):");
-      
+        
+        System.out.println("Is queue contains 15: "+queue.contains(15));
+        
         while (!queue.isEmpty()) {
             System.out.println(queue.poll());
         }
+
+        
 
 //! Max Heap
 
