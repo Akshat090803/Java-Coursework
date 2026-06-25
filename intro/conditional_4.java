@@ -72,9 +72,40 @@ switch(day2) {
 
     default -> System.out.println("Invalid");
 }
+
+//! in modern way mulitple constant supported
+int dayNumber = 7;
+switch (dayNumber) {
+    case 1 -> System.out.println("Monday");
+    case 2 -> System.out.println("Tuesday");
+    case 6, 7 -> System.out.println("Weekend"); // Multiple constants supported
+    default -> System.out.println("Invalid day");
+}
+
+
+//! same i traditional way we have to do like
+switch (dayNumber) {
+    case 1:
+        System.out.println("Monday");
+        break; // Prevents fall-through
+    case 2:
+        System.out.println("Tuesday");
+        break;
+    case 6:
+    case 7:    // Stacking cases for combined logic
+        System.out.println("Weekend");
+        break;
+    default:   // Executed if no case matches
+        System.out.println("Invalid day");
+        break; 
+}
+
   }
 
 }
+
+
+
 
 
 
