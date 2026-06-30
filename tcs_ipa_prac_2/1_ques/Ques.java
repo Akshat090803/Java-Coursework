@@ -63,7 +63,7 @@
 // 50000
 // Cox and Kings:40000
 
-import java.util.List;
+
 import java.util.Scanner;
 
 class  TravelAgencies{

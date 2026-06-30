@@ -126,6 +126,8 @@ System.out.println(stack.search(10)); // 3
         //add(int index, E element)
         list.add(0,"Spring");
          
+         System.out.println("Before AddFirst: "+list.toString());
+
         //  addFirst(E e)
         list.addFirst("Manuj");
         System.out.println("AddFirst: "+list.toString());
